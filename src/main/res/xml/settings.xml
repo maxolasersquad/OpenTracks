@@ -141,6 +141,10 @@ limitations under the License.
             android:key="@string/settings_sensor_bluetooth_cycling_speed_wheel_circumference_key"
             android:title="@string/settings_sensor_wheel_circumference"
             app:useSimpleSummaryProvider="true" />
+        <de.dennisguse.opentracks.settings.bluetooth.BluetoothLeCyclingPowerPreference
+            android:defaultValue="@string/sensor_type_value_none"
+            android:key="@string/settings_sensor_bluetooth_cycling_power_key"
+            android:title="@string/sensor_state_power" />
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/generic_tracks">
